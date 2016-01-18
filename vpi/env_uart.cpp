@@ -1,7 +1,6 @@
 #include "../iverilog/vpi_user.h"
 
 #include "../systemC/link_sc.h"
-#include <boost/thread.hpp>
 
 int counter;
 int counter_reset;
