@@ -32,6 +32,7 @@ static int global_init_calltf(char*user_data)
 	SC_UART = (Control_SC*)create();
 	SC_UART->set_baud_rate(115200,50);
 	SC_UART->init();
+	SC_UART->set_period_clock_sc(20);
 
 	reset.value.integer = SC_UART->get_baud_rate();
 	vpi_put_value(WORK_FR, &reset, NULL, vpiNoDelay);
