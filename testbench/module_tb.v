@@ -3,6 +3,7 @@
 module module_tb;
 
 	reg CLK;
+
 	wire RESET;
 	wire RX;
 	wire START;
@@ -14,12 +15,9 @@ module module_tb;
 	wire READY_TX;
 	wire READY;
 
-	assign DATA_TX = DATA_RX;
-
-	initial CLK = 1'b0;
-	always #(10) CLK = ~CLK;
-
 	integer i;
+	integer a;
+	//assign DATA_TX = DATA_RX;
 
 	initial
 	 begin
@@ -27,7 +25,11 @@ module module_tb;
 	    $dumpvars(0,module_tb);
 	    $global_init;
 	    i=0;
+	    a=10;
 	 end
+
+	initial CLK = 1'b0;
+	always #(a) CLK = ~CLK;
 
 	UART DUT(
 			.CLK(CLK),
@@ -48,15 +50,12 @@ module module_tb;
 		$reset_uart;
 
 	always@(posedge CLK)
-		$execute_uart;
-
-	always@(posedge CLK)
-		$global_counter;
+		$run_sim;
 
 	//FLAG USED TO FINISH SIMULATION PROGRAM 
 	always@(posedge CLK)
 	begin
-		wait(i == 1);		
+		wait(i == 1);
 		$finish();
 	end
 

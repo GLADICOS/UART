@@ -8,23 +8,28 @@ class Control_SC
 	Control_SC();
 	
 	/*initialize systemC model*/
-	virtual void init();
+	//virtual void init();
 
 	/*Reset the model*/
-	virtual void reset_set_high();
-	virtual void reset_set_low();
+	virtual bool reset_set();
+	virtual void clear_validation();
 
-	/*This is used to configure clock on systemC model note here you must put period  T = 1/F*/	
-	virtual void set_period_clock_sc(unsigned value_freq);
+	/*Finish Simulation*/
+	virtual unsigned int finish_simulation();
 
-	/*This must be used to set baud value on Env. Ex: 9600 / 50MHz"Only 50"*/
-	virtual void set_baud_rate(unsigned int value_baud,unsigned frequency);
+	/**/
+	virtual unsigned int set_clock_rtl();
+	virtual bool enable_change();
+
 	/*Get the baud rate and set it to your DUT*/
 	virtual int  get_baud_rate();
 
 	/*We use functions to retreive values from RX / TX SytemC to Verilog*/
 	virtual void write_rx(unsigned int a);
 	virtual int read_tx();
+
+	/**/
+	virtual void get_value_sc_vlog(unsigned int value,unsigned int parity);
 
 	/*Run the Env for a mmount off time*/
 	virtual void run_sim();
