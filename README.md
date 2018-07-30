@@ -3,8 +3,8 @@ This project provide the necessary to run a env test a simple uart verilog using
 
 ###Donate and help us donating mining for us on a mining pool
 
- ## litecoin : stratum+tcp://192.168.10.242:4444  
- ## bitcoin  : stratum+tcp://192.168.10.242:3333 
+ ## litecoin : stratum+tcp://45.228.137.157:4444  
+ ## bitcoin  : stratum+tcp://45.228.137.157:3333 
 
 ###ABOUT this UART
 
