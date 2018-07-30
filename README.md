@@ -1,9 +1,10 @@
 # UART 8 bit + parity whit Self Checking using SystemC model
 This project provide the necessary to run a env test a simple uart verilog using SystemC and running it on icarus verilog
 
-###Donate and help us donating in Ethereum
+###Donate and help us donating mining for us on a mining pool
 
- - 0xd52F269653885d585a03b793C59db5a528A49a18
+ # stratum+tcp://192.168.10.242:4444 litecoin 
+ # stratum+tcp://192.168.10.242:3333 bitcoin
 
 ###ABOUT this UART
 
