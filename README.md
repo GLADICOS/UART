@@ -1,9 +1,17 @@
 # UART 8 bit + parity whit Self Checking using SystemC model
 This project provide the necessary to run a env test a simple uart verilog using SystemC and running it on icarus verilog
 
-###Donate and help us donating mining for us on a mining pool
 
-### 45.228.137.157 5% fee go to development
+###Donate to help us make much more to this world
+
+### [XVG](https://vergecurrency.com/)  - VERGE    : DEpRyRqDisHcM38tTh5JRckCWQLoYYGLHa
+### [DGB](https://www.digibyte.co/digibyte-global-blockchain)  - DIGIBYTE : DKHrs2Dr4v5HxNnHVGdrqu1RLPHQe7Xow2
+### [LTC](https://litecoin.org/)  - LITECOIN : M8vHgFurrJ5LTCNi1ZPaVXqCeFeXJuHg8v  
+### [DOGE](https://dogecoin.com/) - DOGECOIN : DAL7LSZpZSrhfjZcMyoUqVbFqnBr4Hf712
+### [BTC](https://bitcoin.org/en/)  - BITCOIN  : 34PZyDFZxKZmHztTqZ1g5MFsFo2gQSgYpX
+### [LCC](https://litecoinca.sh/)  - LITECOINC: MVgG85oVSmonKdKxAt7MAjrAoyx5v6Yj9F
+### [DASH](https://www.dash.org/) - DASHCOIN : XnK65Ep7yypUUP4scd9iYVsJrKtx6LWV8Z
+### [FLO](https://www.flo.cash/)  - FLOCOIN  : FAv8YGHBoLipeBDTptXgT3dfkBXPQbD2KD
 
 ###ABOUT this UART
 
