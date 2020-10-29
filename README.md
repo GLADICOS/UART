@@ -2,17 +2,6 @@
 This project provide the necessary to run a env test a simple uart verilog using SystemC and running it on icarus verilog
 
 
-###Donate to help us make much more to this world
-
-### [XVG](https://vergecurrency.com/)  - VERGE    : DEpRyRqDisHcM38tTh5JRckCWQLoYYGLHa
-### [DGB](https://www.digibyte.co/digibyte-global-blockchain)  - DIGIBYTE : DKHrs2Dr4v5HxNnHVGdrqu1RLPHQe7Xow2
-### [LTC](https://litecoin.org/)  - LITECOIN : M8vHgFurrJ5LTCNi1ZPaVXqCeFeXJuHg8v  
-### [DOGE](https://dogecoin.com/) - DOGECOIN : DAL7LSZpZSrhfjZcMyoUqVbFqnBr4Hf712
-### [BTC](https://bitcoin.org/en/)  - BITCOIN  : 34PZyDFZxKZmHztTqZ1g5MFsFo2gQSgYpX
-### [LCC](https://litecoinca.sh/)  - LITECOINC: MVgG85oVSmonKdKxAt7MAjrAoyx5v6Yj9F
-### [DASH](https://www.dash.org/) - DASHCOIN : XnK65Ep7yypUUP4scd9iYVsJrKtx6LWV8Z
-### [FLO](https://www.flo.cash/)  - FLOCOIN  : FAv8YGHBoLipeBDTptXgT3dfkBXPQbD2KD
-
 ###ABOUT this UART
 
 This consist in a simple UART 8 bit using opensource rtl simulator icarus verilog with mixed code vpi "verilog procedural interface" and systemC. This uart is alredy tested on ALTERA FPGA and it work well. But RX could be more elaborated to take signal since he take just catch signal on middle of counter and not see another point of signal. But this is the base to elaborate another applications on future or modify it to a specific propurse. SystemC model do the same way but i need finish just check parity from DUT "Device under test" to SystemC model. 
